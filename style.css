@@ -1,0 +1,37 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+  }
+  #game{
+    text-align: center;
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    
+  }
+  .score{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #282828;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  button{
+    border: none;
+    margin-top: 20px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: #ffffff;
+    background-color: #282828;
+  }
+  .gameOver{
+    font-size: 30px;
+    color: red;
+  }
